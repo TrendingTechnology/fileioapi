@@ -20,6 +20,7 @@ def upload(file: str, expiry: str='14d') -> dict:
     payload  = {'file': open(file, 'rb')}
     url      = FILEIO + f'?expiry={expiry}'
     response = requests.post(url, files=payload)
+    print(response.text)
 
     return loads(response.text)
 
