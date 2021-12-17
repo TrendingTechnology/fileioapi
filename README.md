@@ -1,4 +1,4 @@
-# File.io
+# 🗃️ File.io
 An API wrapper for the file.io web service.
 
 ## Install
