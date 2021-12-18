@@ -14,6 +14,54 @@ $ cd fileioapi
 $ python3 setup.py install
 ```
 
+## Run
+
+```bash
+$ fileio -web
+```
+
+or
+
+```bash
+$ fileio -desktop --upload
+```
+
+or
+
+```bash
+$ fileio -desktop --download
+```
+
+or
+
+```bash
+$ fileio --api
+```
+
+or
+
+```bash
+$ fileio --exportUpload --csv
+```
+
+or
+
+```bash
+$ fileio --exportUpload --json
+```
+
+or
+
+```bash
+$ fileio --exportUpload --sqlite3
+```
+
+or
+
+```bash
+$ fileio --exportUpload --postgreSQL
+```
+
 ## Usage
 ```python
 import fileioapi
