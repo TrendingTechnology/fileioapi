@@ -20,8 +20,10 @@ import fileioapi
 
 # upload a file
 resp = fileioapi.upload("image.png", expiry="12w")
+> { ... }
 
 # download a file and save to 'downloaded.png'
 down = fileioapi.download(resp['link'], filename='downloaded.png')
+> { ... }
 
 ```
