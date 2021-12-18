@@ -62,6 +62,31 @@ or
 $ fileio --exportUpload --postgreSQL
 ```
 
+or
+
+```bash
+$ fileio --exportDownload --csv
+```
+
+or
+
+```bash
+$ fileio --exportDownload --json
+```
+
+or
+
+```bash
+$ fileio --exportDownload --sqlite3
+```
+
+or
+
+```bash
+$ fileio --exportDownload --postgreSQL
+```
+
+
 ## Usage
 ```python
 import fileioapi
